@@ -8,7 +8,7 @@ var StringBuilder.lastChar: Char
     }
 
 fun main(args:Array<String>) {
-    val someString = "Vadim Krasava"
+    val someString = "Vadim Krasava ae"
     println(someString.lastChar)
     val anotherString = StringBuilder("Vadim moget?")
     anotherString.lastChar = '!'
