@@ -1,5 +1,6 @@
 package com.example.vadimm.kotlininaction;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
@@ -12,9 +13,15 @@ import static org.junit.Assert.assertNotNull;
 @Config(constants = BuildConfig.class, sdk = 21)
 public class MainActivityTest {
 
+    private MainActivity activity;
+
+    @Before
+    public void setUp() throws Exception {
+        activity = Robolectric.setupActivity(MainActivity.class);
+    }
+
     @Test
     public void shouldNotBeNull() throws Exception {
-        MainActivity activity = Robolectric.setupActivity(MainActivity.class);
         assertNotNull(activity);
     }
 }
