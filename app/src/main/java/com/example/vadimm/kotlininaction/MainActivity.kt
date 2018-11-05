@@ -7,26 +7,34 @@ import android.os.Vibrator
 import android.view.View
 import com.example.vadimm.kotlininaction.tools.vibrateOnce
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.Intent
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    var vibrator: Vibrator? = null
+    private var vibrator: Vibrator? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setupView()
+        setupCLickListeners()
         vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
     }
 
-    private fun setupView() {
+    private fun setupCLickListeners() {
         vibroButton.setOnClickListener(this)
+        findAge.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         val viewId = v?.id ?: return
         when (viewId) {
             R.id.vibroButton -> vibrator?.vibrateOnce()
+            R.id.findAge -> findMyAge()
         }
+    }
+
+    private fun findMyAge() {
+        val intent = Intent(this@MainActivity, FindAge::class.java)
+        startActivity(intent)
     }
 }

@@ -1,4 +1,4 @@
-package com.example.vadimm.kotlininaction
+package com.example.vadimm.kotlininaction.udemy
 
 import java.lang.Exception
 

@@ -1,4 +1,4 @@
-package com.example.vadimm.kotlininaction
+package com.example.vadimm.kotlininaction.kotlininaction
 
 fun displayStringInJava() {
     println("12.345-6.A".split("\\.|-".toRegex()))
