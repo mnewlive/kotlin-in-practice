@@ -41,6 +41,20 @@ private fun findParrotTrouble(talking: Boolean, hour: Int): Boolean {
     return (talking && (hour < 7 || hour > 20))
 }
 
+/**
+ * Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+ */
+private fun makesTen(a: Int, b: Int): Boolean {
+    val sum: Int = a + b
+    return sum == 10 || a == 10 || b == 10
+}
+
+/**
+ * Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num) computes the absolute value of a number
+ */
+fun nearHundred(n: Int): Boolean {
+    return Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10
+}
 
 fun main(args: Array<String>) {
     println("sleepIn " + sleepIn(isWeekDay = false, isVacation = true))
@@ -53,4 +67,7 @@ fun main(args: Array<String>) {
     println("calculateDifference " + calculateDifference(value = 41))
     println("findParrotTrouble " + findParrotTrouble(talking = true, hour = 6))
     println("findParrotTrouble " + findParrotTrouble(talking = false, hour = 6))
+    println("makesTen " + makesTen(10, 2))
+    println("makesTen " + makesTen(9, 2))
+    println("nearHundred " + nearHundred(9))
 }
