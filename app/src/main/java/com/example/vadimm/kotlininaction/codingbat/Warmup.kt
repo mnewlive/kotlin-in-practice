@@ -56,6 +56,33 @@ fun nearHundred(n: Int): Boolean {
     return Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10
 }
 
+/**
+ * Given 2 int values, return true if one is negative and one is positive.
+ * Except if the parameter "negative" is true, then return true only if both are negative.
+ */
+private fun posNeg(a: Int, b: Int, negative: Boolean): Boolean {
+    return if (negative) (a > 0 && b > 0)
+    else return (a < 0 && b > 0) || (a > 0 && b < 0)
+}
+
+/**
+ * Given a string, return a new string where "not " has been added to the front.
+ * However, if the string already begins with "not", return the string unchanged. Note: use .equals() to compare 2 strings.
+ */
+private fun getStringWithNot(str: String): String {
+    return if (str.substring(0, 3).equals("not")) "" else "not$str"
+}
+
+/**
+ * Given a non-empty string and an int n, return a new string where the char at index n has been removed.
+ * The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..str.length()-1 inclusive).
+ */
+private fun removeIndexFromString(str: String, n: Int) : String {
+    val front: String = str.substring(0, n)
+    val back: String = str.substring(n+1, str.length)
+    return front + back
+}
+
 fun main(args: Array<String>) {
     println("sleepIn " + sleepIn(isWeekDay = false, isVacation = true))
     println("findMonkeyTrouble ${findMonkeyTrouble(aSmile = false, bSmile = false)}")
@@ -70,4 +97,11 @@ fun main(args: Array<String>) {
     println("makesTen " + makesTen(10, 2))
     println("makesTen " + makesTen(9, 2))
     println("nearHundred " + nearHundred(9))
+    println("posNeg " + posNeg(-2, 3, false))
+    println("posNeg " + posNeg(-2, -3, false))
+    println("posNeg " + posNeg(-2, -3, true))
+    println("getStringWithNot " + getStringWithNot("Testik"))
+    println("getStringWithNot " + getStringWithNot("notTest"))
+    println("removeIndexFromString " + removeIndexFromString("some", 2))
+
 }
