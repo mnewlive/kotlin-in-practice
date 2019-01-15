@@ -1,5 +1,7 @@
 package com.example.vadimm.kotlininaction.codingbat
 
+import android.util.Log
+
 /**
  * The parameter weekday is true if it is a weekday, and the parameter vacation is true
  * if we are on vacation. We sleep in if it is not a weekday or we're on vacation.
@@ -77,10 +79,28 @@ private fun getStringWithNot(str: String): String {
  * Given a non-empty string and an int n, return a new string where the char at index n has been removed.
  * The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..str.length()-1 inclusive).
  */
-private fun removeIndexFromString(str: String, n: Int) : String {
+private fun removeIndexFromString(str: String, n: Int): String {
     val front: String = str.substring(0, n)
-    val back: String = str.substring(n+1, str.length)
+    val back: String = str.substring(n + 1, str.length)
     return front + back
+}
+
+/**
+ * Given a string, return a new string where the first and last chars have been exchanged.
+ */
+private fun frontBack(str: String): String {
+    if (str.length <= 1) return str
+    val mid: String = str.substring(1, str.length - 1)
+    return str[str.length -1] + mid + str[0]
+}
+
+/**
+ * Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3,
+ * the front is whatever is there. Return a new string which is 3 copies of the front.
+ */
+private fun front3(str: String): String {
+    val front: String = if (str.length >= 3) str.substring(0, 3) else str
+    return front + front + front
 }
 
 fun main(args: Array<String>) {
@@ -103,5 +123,7 @@ fun main(args: Array<String>) {
     println("getStringWithNot " + getStringWithNot("Testik"))
     println("getStringWithNot " + getStringWithNot("notTest"))
     println("removeIndexFromString " + removeIndexFromString("some", 2))
-
+    println("frontBack " + frontBack("some"))
+    println("front3 " + front3("Kotlin"))
+    println("front3 " + front3("ar"))
 }
