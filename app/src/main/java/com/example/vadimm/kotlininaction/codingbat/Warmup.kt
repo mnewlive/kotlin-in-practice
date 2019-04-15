@@ -1,7 +1,5 @@
 package com.example.vadimm.kotlininaction.codingbat
 
-import android.util.Log
-
 /**
  * The parameter weekday is true if it is a weekday, and the parameter vacation is true
  * if we are on vacation. We sleep in if it is not a weekday or we're on vacation.
@@ -101,6 +99,17 @@ private fun frontBack(str: String): String {
 private fun front3(str: String): String {
     val front: String = if (str.length >= 3) str.substring(0, 3) else str
     return front + front + front
+}
+
+/**
+ * Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+ */
+private fun makePi(): IntArray {
+    return intArrayOf(3, 1, 4)
+}
+
+private fun commonEnd(a: IntArray, b: IntArray): Boolean {
+    return a[0] == b[0] || a[a.size - 1] == b[b.size - 1]
 }
 
 fun main(args: Array<String>) {
