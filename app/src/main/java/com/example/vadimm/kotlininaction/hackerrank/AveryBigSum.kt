@@ -5,7 +5,7 @@ import java.util.*
 
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
-    val arCount = scan.nextInt()
+    val arCount = scan.nextLine().trim().toInt()
     val arr = IntArray(arCount)
 
     for (i in 0 until arCount) {
@@ -17,7 +17,6 @@ fun main(args: Array<String>) {
 
 fun Int.toBigInteger() = BigInteger.valueOf(toLong())
 
-// Complete the aVeryBigSum function below.
 fun aVeryBigSum(ar: IntArray): BigInteger {
     var sum = BigInteger.ZERO
     for (i in ar) {
