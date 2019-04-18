@@ -5,7 +5,7 @@ import java.util.*
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
     val n = scan.nextLine().trim().toInt()
-    val arr = Array<Array<Int>>(n, { Array(size = n, init = { 0 }) })
+    val arr = Array(n) { Array(size = n, init = { 0 }) }
 
     for (i in 0 until n) {
         arr[i] = scan.nextLine().split(" ").map { it.trim().toInt() }.toTypedArray()
@@ -26,6 +26,7 @@ fun calculateDiagonalDifference(arr: Array<Array<Int>>): Int {
             }
             if ((a + b) == (arr.size - 1)) {
                 secondaryDiagonal += row[b]
+
             }
         }
     }
