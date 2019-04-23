@@ -33,4 +33,3 @@ fun calculateDiagonalDifference(arr: Array<Array<Int>>): Int {
     return if (primaryDiagonal > secondaryDiagonal) primaryDiagonal - secondaryDiagonal
     else secondaryDiagonal - primaryDiagonal
 }
-
