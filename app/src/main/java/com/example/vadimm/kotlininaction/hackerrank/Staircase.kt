@@ -13,13 +13,10 @@ fun staircase(n: Int): String {
     var output = ""
     for (i in 0 until n) {
         for (b in 0 until n) {
-            if (b >= (n - i - 1)) {
-                output += "#"
-            } else output += " "
+            if (b >= (n - i - 1)) output += "#"
+            else output += " "
         }
-        if (i != (n - 1)) {
-            output += "\n"
-        }
+        if (i != (n - 1)) output += "\n"
     }
     return output
 }
