@@ -3,33 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="128dp"
-        android:gravity="center_vertical"
-        android:text="Hello World!"
-        tools:text="text" />
-
-    <Button
-        android:id="@+id/vibroButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="163dp"
-        android:gravity="center"
-        android:text="Make vibration" />
-
-    <Button
-        android:id="@+id/findAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="Find age" />
+        android:text="Hello World!" />
 </RelativeLayout>
