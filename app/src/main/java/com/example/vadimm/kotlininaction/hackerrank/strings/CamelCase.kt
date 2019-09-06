@@ -6,7 +6,6 @@ fun camelcase(s: String): Int {
     var count = 1
     for (i in 0 until s.length){
         if (Character.isUpperCase(s[i])) {
-//            println(s[i])
             count += 1
         }
     }
