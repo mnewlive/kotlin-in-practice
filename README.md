@@ -21,6 +21,7 @@ For the right [start].
 |-----|----------------------------------------|---------------------------------------------|
 | 1.  | [Kangaroo]                             | [Kangaroo Kotlin]                           |
 | 2.  | [CamelCase]                            | [CamelCase Kotlin]                          |
+| 3.  | [Mars Exploration]                     | [Mars Exploration Kotlin]                   |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -29,3 +30,5 @@ For the right [start].
 [Kangaroo Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/Kangaroo.kt
 [CamelCase]:https://www.hackerrank.com/challenges/camelcase/problem
 [CamelCase Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/CamelCase.kt
+[Mars Exploration]:https://www.hackerrank.com/challenges/mars-exploration/problem
+[Mars Exploration Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/MarsExploration.kt
