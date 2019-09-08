@@ -5,22 +5,20 @@ import java.util.*
 fun marsExploration(s: String): Int {
     var result = 0
     val pattern = "SOS"
-    var i = 0
-    while (i < s.length) {
-        val j = i % 3
-        if (s[i] != pattern[j]) {
+    var numberOfWords = 0
+    while (numberOfWords < s.length) {
+        val j = numberOfWords % 3
+        if (s[numberOfWords] != pattern[j]) {
             result++
         }
-        i++
+        numberOfWords++
     }
     return result
 }
 
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
-
     val s = scan.nextLine()
-
     val result = marsExploration(s)
 
     println(result)

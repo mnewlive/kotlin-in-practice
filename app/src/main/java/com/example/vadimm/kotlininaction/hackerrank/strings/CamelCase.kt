@@ -3,13 +3,13 @@ package com.example.vadimm.kotlininaction.hackerrank.strings
 import java.util.*
 
 fun camelcase(s: String): Int {
-    var count = 1
-    for (i in 0 until s.length){
-        if (Character.isUpperCase(s[i])) {
-            count += 1
+    var countOfCapitalLetters = 1
+    for (numberOfCharacters in 0 until s.length){
+        if (Character.isUpperCase(s[numberOfCharacters])) {
+            countOfCapitalLetters += 1
         }
     }
-    return count
+    return countOfCapitalLetters
 }
 
 fun main(args: Array<String>) {
