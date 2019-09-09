@@ -33,5 +33,5 @@ For the right [start].
 [CamelCase Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/CamelCase.kt
 [Mars Exploration]:https://www.hackerrank.com/challenges/mars-exploration/problem
 [Mars Exploration Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/MarsExploration.kt
-[Pangram]:https://www.hackerrank.com/challenges/pangrams/problem
-[Mars Exploration Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/Pangrams.kt
+[Pangrams]:https://www.hackerrank.com/challenges/pangrams/problem
+[Pangrams Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/Pangrams.kt
