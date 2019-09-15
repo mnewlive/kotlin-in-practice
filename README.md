@@ -17,12 +17,16 @@ For the right [start].
 
 ### Problems solved:
 
-|   # | Problem                                | Solutions                                   |
+|   # | Problems                               | Solutions                                   |
 |-----|----------------------------------------|---------------------------------------------|
+|                                        **Strings**                                         |
 | 1.  | [Kangaroo]                             | [Kangaroo Kotlin]                           |
 | 2.  | [CamelCase]                            | [CamelCase Kotlin]                          |
 | 3.  | [Mars Exploration]                     | [Mars Exploration Kotlin]                   |
 | 4.  | [Pangrams]                             | [Pangrams Kotlin]                           |
+| 5.  | [Alternating Characters]               | [Alternating Characters Kotlin]             |
+|                                    **30 Days of Code**                                     |
+| 1.  | [Day 0: Hello, World.]                 | [Day 0 Kotlin solution]                     |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -35,3 +39,7 @@ For the right [start].
 [Mars Exploration Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/MarsExploration.kt
 [Pangrams]:https://www.hackerrank.com/challenges/pangrams/problem
 [Pangrams Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/Pangrams.kt
+[Alternating Characters]:https://www.hackerrank.com/challenges/alternating-characters/problem
+[Alternating Characters Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/AlternatingCharacters.kt
+[Day 0: Hello, World.]:https://www.hackerrank.com/challenges/30-hello-world/problem
+[Day 0 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day0HelloWorld.kt
