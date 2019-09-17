@@ -27,6 +27,8 @@ For the right [start].
 | 5.  | [Alternating Characters]               | [Alternating Characters Kotlin]             |
 |                                    **30 Days of Code**                                     |
 | 1.  | [Day 0: Hello, World.]                 | [Day 0 Kotlin solution]                     |
+| 2.  | [Day 1: Data Types]                    | [Day 1 Java solution]                       |
+| 3.  | [Day 2: Operators]                     | [Day 2 Kotlin solution]                     |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -43,3 +45,7 @@ For the right [start].
 [Alternating Characters Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/strings/AlternatingCharacters.kt
 [Day 0: Hello, World.]:https://www.hackerrank.com/challenges/30-hello-world/problem
 [Day 0 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day0HelloWorld.kt
+[Day 1: Data Types]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 1 Java solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day1DataTypes
+[Day 2: Operators]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 2 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day2Operators.kt
