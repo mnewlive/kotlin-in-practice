@@ -1,4 +1,4 @@
-package com.example.vadimm.kotlininaction.hackerrank
+package com.example.vadimm.kotlininaction.hackerrank.implementation
 
 import java.util.*
 
@@ -20,7 +20,8 @@ fun main(args: Array<String>) {
 
     val v2 = x1V1X2V2[3].trim().toInt()
 
-    val result = kangaroo(x1, v1, x2, v2)
+    val result =
+        kangaroo(x1, v1, x2, v2)
 
     println(result)
 }

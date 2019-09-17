@@ -1,4 +1,4 @@
-package com.example.vadimm.kotlininaction.hackerrank
+package com.example.vadimm.kotlininaction.hackerrank.warmup
 
 import java.math.BigInteger
 import java.util.*
