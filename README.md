@@ -28,7 +28,7 @@ For the right [start].
 | 6.  | [Plus Minus]                           | [Plus Minus Kotlin]                         |
 | 7.  | [Staircase]                            | [Staircase Kotlin]                          |
 | 8.  | [Time Conversion]                      | [Time Conversion Kotlin]                    |
-| 8.  | [Solve Me First]                       | [Solve Me First Kotlin]                     |
+| 9.  | [Solve Me First]                       | [Solve Me First Kotlin]                     |
 |                                     **Implementation**                                     |
 | 1.  | [Kangaroo]                             | [Kangaroo Kotlin]                           |
 |                                        **Strings**                                         |
