@@ -42,6 +42,7 @@ For the right [start].
 | 3.  | [Day 2: Operators]                     | [Day 2 Kotlin solution]                     |
 | 4.  | [Day 3: Conditional Statements]        | [Day 3 Kotlin solution]                     |
 | 5.  | [Day 5: Loops]                         | [Day 5 Kotlin solution]                     |
+| 6.  | [Day 7: Arrays]                        | [Day 7 Kotlin solution]                     |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -66,6 +67,8 @@ For the right [start].
 [Day 3 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day3IntroToConditionalStatements.kt
 [Day 5: Loops]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 5 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day5Loops.kt
+[Day 7: Arrays]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 7 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day7Arrays.kt
 [Solve Me First]:https://www.hackerrank.com/challenges/solve-me-first/problem
 [Solve Me First Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/warmup/SolveMeFirst.kt
 [A Very Big Sum]:https://www.hackerrank.com/challenges/a-very-big-sum/problem
