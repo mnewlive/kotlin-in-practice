@@ -28,7 +28,7 @@ For the right [start].
 | 6.  | [Plus Minus]                           | [Plus Minus Kotlin]                         |
 | 7.  | [Staircase]                            | [Staircase Kotlin]                          |
 | 8.  | [Time Conversion]                      | [Time Conversion Kotlin]                    |
-| 8.  | [Solve Me First]                       | [Solve Me First Kotlin]                     |
+| 9.  | [Solve Me First]                       | [Solve Me First Kotlin]                     |
 |                                     **Implementation**                                     |
 | 1.  | [Kangaroo]                             | [Kangaroo Kotlin]                           |
 |                                        **Strings**                                         |
@@ -43,6 +43,7 @@ For the right [start].
 | 4.  | [Day 3: Conditional Statements]        | [Day 3 Kotlin solution]                     |
 | 5.  | [Day 5: Loops]                         | [Day 5 Kotlin solution]                     |
 | 6.  | [Day 7: Arrays]                        | [Day 7 Kotlin solution]                     |
+| 7.  | [Day 9: Recursion 3]                   | [Day 9 Kotlin solution]                     |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -69,6 +70,8 @@ For the right [start].
 [Day 5 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day5Loops.kt
 [Day 7: Arrays]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 7 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day7Arrays.kt
+[Day 9: Recursion 3]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 9 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day9Recursion3.kt
 [Solve Me First]:https://www.hackerrank.com/challenges/solve-me-first/problem
 [Solve Me First Kotlin]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/warmup/SolveMeFirst.kt
 [A Very Big Sum]:https://www.hackerrank.com/challenges/a-very-big-sum/problem
