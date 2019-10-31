@@ -2,6 +2,7 @@ package com.example.vadimm.kotlininaction.hackerrank.thirtyDaysOfCode
 
 import java.util.*
 
+
 fun main(args: Array<String>) {
     val scanner = Scanner(System.`in`)
     val n = scanner.nextInt()
@@ -12,7 +13,7 @@ fun main(args: Array<String>) {
         val string = scanner.nextLine()
         val charArray = string.toCharArray()
 
-        for (j in charArray.indices) {
+        for (j in charArray.indices) { // TODO: try to simplify with forEachIndexed
             if (j % 2 == 0) {
                 print(charArray[j])
             }
