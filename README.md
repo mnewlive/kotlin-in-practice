@@ -41,9 +41,11 @@ For the right [start].
 | 2.  | [Day 1: Data Types]                    | [Day 1 Java solution]                       |
 | 3.  | [Day 2: Operators]                     | [Day 2 Kotlin solution]                     |
 | 4.  | [Day 3: Conditional Statements]        | [Day 3 Kotlin solution]                     |
-| 5.  | [Day 5: Loops]                         | [Day 5 Kotlin solution]                     |
-| 6.  | [Day 7: Arrays]                        | [Day 7 Kotlin solution]                     |
-| 7.  | [Day 9: Recursion 3]                   | [Day 9 Kotlin solution]                     |
+| 5.  | [Day 4: Class vs. Instance]            | [Day 4 Kotlin solution]                     |
+| 6.  | [Day 5: Loops]                         | [Day 5 Kotlin solution]                     |
+| 7.  | [Day 6: Let's Review]                  | [Day 6 Kotlin solution]                     |
+| 8.  | [Day 7: Arrays]                        | [Day 7 Kotlin solution]                     |
+| 9.  | [Day 9: Recursion 3]                   | [Day 9 Kotlin solution]                     |
 
 <!-- Links -->
 [start]: https://www.freecodecamp.org/news/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645/
@@ -66,8 +68,12 @@ For the right [start].
 [Day 2 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day2Operators.kt
 [Day 3: Conditional Statements]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 3 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day3IntroToConditionalStatements.kt
+[Day 4: Day 4: Class vs. Instance]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 4 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day4ClassVsInstance.kt
 [Day 5: Loops]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 5 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day5Loops.kt
+[Day 6: Let's Review]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 6 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day6LetsReview.kt
 [Day 7: Arrays]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 7 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day7Arrays.kt
 [Day 9: Recursion 3]:https://www.hackerrank.com/challenges/30-data-types/problem
