@@ -68,7 +68,7 @@ For the right [start].
 [Day 2 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day2Operators.kt
 [Day 3: Conditional Statements]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 3 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day3IntroToConditionalStatements.kt
-[Day 4: Day 4: Class vs. Instance]:https://www.hackerrank.com/challenges/30-data-types/problem
+[Day 4: Class vs. Instance]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 4 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day4ClassVsInstance.kt
 [Day 5: Loops]:https://www.hackerrank.com/challenges/30-data-types/problem
 [Day 5 Kotlin solution]:https://github.com/mnewlive/kotlin-in-practice/blob/master/app/src/main/java/com/example/vadimm/kotlininaction/hackerrank/thirtyDaysOfCode/Day5Loops.kt
