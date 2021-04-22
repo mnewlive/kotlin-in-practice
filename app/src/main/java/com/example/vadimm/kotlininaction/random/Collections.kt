@@ -1,6 +1,5 @@
 package com.example.vadimm.kotlininaction.random
 
-
 val array = intArrayOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 fun printArraySinceZero() {
@@ -21,11 +20,15 @@ fun printArrayDownWithStep() {
     }
 }
 
+//Given a string S, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.
 fun removeVowels(word: String): String {
     val vowels = setOf<Char>('a', 'e', 'i', 'o', 'u') // a in b равносильно b.contains(a)
     return word.filter { it !in vowels }
 }
 
+//Input: nums = [1,2,3,4]
+//Output: [1,3,6,10]
+//Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 fun runningSumWithRunningReduce(nums: IntArray): IntArray {
     return nums.runningReduce { sum, element -> sum + element }.toIntArray()
 }
@@ -50,6 +53,10 @@ fun runningSumWithFor(nums: IntArray): IntArray {
     return nums
 }
 
+//Input:
+//paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+//banned = ["hit"]
+//Output: "ball"
 fun mostCommonWord(paragraph: String, banned: Array<String>): String {
     // 1. Covert string to lower case and split by words.
     val words = paragraph.toLowerCase().split("\\W+|\\s+".toRegex())
