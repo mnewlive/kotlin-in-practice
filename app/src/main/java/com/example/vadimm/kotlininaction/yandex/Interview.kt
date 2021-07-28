@@ -71,9 +71,44 @@ fun findSolution22() {
 }
 
 
+/**
+ * Дан упорядоченный по неубыванию массив целых 32-разрядных чисел. Требуется удалить из него все повторения.
+ * Максимальное кол-во повторений 2.
+ */
+fun removeConsecutiveCharactersInString(str: String, maxConsecutiveAllowedCount: Int): String {
+    val builder = StringBuilder(str)
+    var i = 0
+    while (i < builder.length) {
+        var foundCount = 0
+        for (j in i - 1 downTo 0) {
+            if (lowerCasedChar(builder[i]) == lowerCasedChar(builder[j])) {
+                foundCount++
+                if (foundCount >= maxConsecutiveAllowedCount) {
+                    builder.deleteCharAt(i)
+                    i--
+                    break
+                }
+            } else {
+                break
+            }
+        }
+        i++
+    }
+    return builder.toString()
+}
+
+private fun lowerCasedChar(ch: Char): Char {
+    val intChar = ch.toInt()
+    return if (intChar >= 65 && intChar <= 90) {
+        (intChar + 32).toChar()
+    } else ch
+}
+
+
 
 fun main() {
 //    findSolution1()
 //    findSolution21()
 //    findSolution22()
+    println(removeConsecutiveCharactersInString("abccccdddaf", 2))
 }
